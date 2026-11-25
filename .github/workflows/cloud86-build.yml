@@ -15,6 +15,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          repository: navanem/gta6-leonida-atlas
           ref: v0.8.2
 
       - name: Setup pnpm
